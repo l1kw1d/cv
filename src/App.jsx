@@ -22,7 +22,7 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-const mode = 'readOnly';
+const mode = 'edit';
 function App() {
     const classes = useStyles();
     const [data, setData] = useState(JsonStub);
